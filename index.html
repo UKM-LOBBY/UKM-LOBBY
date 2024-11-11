@@ -5,26 +5,27 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/webp" href="./assets/Logo-DnQvnf0l.webp" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> UKM LOBBY </title>
-  <script type="module" crossorigin src="./assets/index-BVMdA-1p.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-jdb1kQrt.css">
+  <title>UKM LOBBY</title>
+  <script type="module" crossorigin src="./assets/index-BpMg2jEk.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CDfyfUKn.css">
 </head>
 
 
 <body class="bg-gray-950">
-  <nav class="bg-gray-950 fixed w-full p-6 flex justify-between items-center xl:px-52 z-10 bg-opacity-50">
-    <div class="flex flex-row items-center w-40">
+  <nav
+    class="bg-gray-950 fixed w-full p-6 flex justify-start md:justify-between items-center xl:px-52 z-10 bg-opacity-50">
+    <div class="flex flex-row items-center md:w-40">
       <img src="./assets/Logo-DnQvnf0l.webp" alt="logo" class="w-10 h-10" />
-      <p class="text-white ml-2 font-medium text-xl">UKM LOBBY</p>
+      <p class="hidden md:block text-white ml-2 font-medium text-xl">UKM LOBBY</p>
     </div>
-    <div class="flex justify-center items-center gap-4">
+    <div class="flex justify-center items-center gap-4 mx-auto md:mx-0">
       <a href="#" class="text-white font-bold">Home</a>
       <a href="#" class="text-white">Tentang</a>
       <a href="#" class="text-white">Staff</a>
       <a href="#" class="text-white">Proker</a>
       <a href="#" class="text-white">Blog</a>
     </div>
-    <div class="w-40 flex justify-end">
+    <div class="hidden md:flex w-40 justify-end">
       <button class="bg-blue-900 hover:bg-blue-950 text-white font-bold py-2 px-4 rounded">
         Login
       </button>
@@ -43,8 +44,8 @@
         inspirasi.</p>
     </div>
     <div class="w-2/5 flex justify-center items-center">
-      <model-viewer src="assets/  LobbyBL.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral"
-        shadow-intensity="1" class="w-full h-full p-10">
+      <model-viewer src="assets/LobbyBL.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+        tone-mapping="neutral" shadow-intensity="1" class="w-full h-full p-10">
         <div class="progress-bar" slot="progress-bar">
           <div class="update-bar"></div>
         </div>
